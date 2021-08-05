@@ -66,12 +66,14 @@ password=client secrrent id
 
 ## Deployment to AKS 
 
-[Documentation Link to deploy to AKS](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough)
+1. [Documentation Link to deploy to AKS](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough)
 1.To Install the kubelogin and kubectl using below command 
 
 		az aks install-cli
+		
+		OR
 
-		or Download KubeLogin and kubectl seperately from [Here](https://github.com/Azure/kubelogin/releases)
+	[Download KubeLogin and kubectl seperately](https://github.com/Azure/kubelogin/releases)
 
 1. Login to azure 
 
